@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* Common Varablies */
 :root {
   --main-font-colour: #ffffff;
   --main-background-colour: #0072bb;
@@ -17,23 +18,24 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: var(--main-font-family);
   background-color: #2a607c;
   color: var(--main-font-colour);
+  
 }
 
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
   color: #d9dcd6;
 }
 
-.header div {
+header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -41,11 +43,11 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+header div ul {
   list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -56,9 +58,9 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
-
+/* Hero Image */
 .hero {
   height: 800px;
   width: 100%;
@@ -68,22 +70,7 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
+/* Benefits CSS */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -117,6 +104,7 @@ p {
   max-width: 150px;
 }
 
+/* Content CSS */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -156,6 +144,23 @@ p {
   max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+  
+  .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+/* Footer CSS */ 
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
