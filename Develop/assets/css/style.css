@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+:root {
+    --main-font-colour: #ffffff;
+    --main-background-colour: #0072bb;
+}
+
 body {
     background-color: #d9dcd6;
 }
@@ -12,7 +17,7 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--main-font-colour);
 }
 
 .header h1 {
@@ -42,7 +47,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--main-font-colour);
     text-decoration: none;
 }
 
@@ -93,12 +98,12 @@ p {
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--main-font-colour);
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--main-font-colour);
 }
 
 .benefit-lead h3 {
@@ -139,8 +144,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--main-background-colour);
+    color: var(--main-font-colour);
 }
 
 .online-reputation-management {
@@ -148,8 +153,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--main-background-colour);
+    color: var(--main-font-colour);
 }
 
 .social-media-marketing {
@@ -157,8 +162,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--main-background-colour);
+    color: var(--main-font-colour);
 }
 
 .search-engine-optimization img {
