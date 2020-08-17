@@ -1,17 +1,9 @@
+@import "theme.css";
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-/* Common Varablies */
-:root {
-  --main-font-colour: #ffffff;
-  --main-background-colour: #0072bb;
-  --main-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  --secondary-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
 }
 
 body {
@@ -23,7 +15,6 @@ header {
   font-family: var(--main-font-family);
   background-color: #2a607c;
   color: var(--main-font-colour);
-  
 }
 
 header h1 {
@@ -79,7 +70,7 @@ p {
   width: 20%;
   height: 100%;
   font-family: var(--secondary-font-family);
-  background-color: #2589bd;
+  background-color: var(--secondary-background-colour);
   margin-bottom: 32px;
   color: var(--main-font-colour);
   margin-bottom: 10px;
@@ -145,22 +136,22 @@ p {
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
-  }
-  
-  .float-right {
-    float: right;
-    margin-left: 25px;
-  }
-  
-  .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-  }
+  float: left;
+  margin-right: 25px;
+}
 
-/* Footer CSS */ 
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Footer CSS */
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
