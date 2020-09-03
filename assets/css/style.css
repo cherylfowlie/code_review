@@ -96,24 +96,8 @@ p {
 }
 
 /* Content CSS */
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--secondary-font-family);
-  background-color: var(--main-background-colour);
-  color: var(--main-font-colour);
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--secondary-font-family);
-  background-color: var(--main-background-colour);
-  color: var(--main-font-colour);
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -123,15 +107,9 @@ p {
   color: var(--main-font-colour);
 }
 
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
+.search-engine-optimization img,
+.social-media-marketing img,
 .online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
   max-height: 200px;
 }
 
